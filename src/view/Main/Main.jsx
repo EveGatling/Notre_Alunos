@@ -1,7 +1,7 @@
 import React from 'react';
 import Study from '../../Images/Study.svg';
 import Header from '../../components/Header/Header'
-import Waves from '../../Images/Waves2.svg'
+import Waves from '../../Images/Waves3.svg'
 
 import "./Main.css";
 

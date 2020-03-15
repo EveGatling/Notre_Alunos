@@ -3,17 +3,17 @@ h1{
 }
 
 .image-study{
-    margin-top: -850px;
-    padding-left: 700px;
-    z-index: 9;
-    position: relative;
+    padding-left: 800px;
+    padding-top: 150px;
+    z-index: 8;
+    position: absolute;
 }
 
 .waves{
-    z-index: 9;
-    position: relative;
-    transform: rotate(220deg);
-    
+    z-index: -8;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .all-header{
@@ -21,31 +21,33 @@ h1{
 }
 
 .content{
-    position: relative;
+    position: absolute;
     text-align: center;
 }
 
 .main-text{
     position: absolute;
-    padding-left: 30px;
-    top: 30px;
-    max-width: 560px;
+    padding-left: 50px;
+    top: 180px;
+    width: 540px;
 }
 
 .button{
     border: 0;
-    background-color: #000b76;
-    color: white;
+    background: white !important;
+    color: #000b76;
     padding: 10px 20px;
     font-size: 13px;
     border-radius: 10px;
-    border: 1px solid #000b76;
+    border: 1px solid #000b76 !important;
     text-transform: uppercase;
     margin-top: 20px;
+
 }
 
 .button-pos{
-    margin-top: -1009px;
-    padding-left: 1400px;
+    top: 1;
+    padding-left: 1390px;
     position: fixed;
+    z-index: 9;
 }
