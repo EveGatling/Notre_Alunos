@@ -1,0 +1,51 @@
+h1{
+    font-size: 50px;
+}
+
+.image-study{
+    margin-top: -850px;
+    padding-left: 700px;
+    z-index: 9;
+    position: relative;
+}
+
+.waves{
+    z-index: 9;
+    position: relative;
+    transform: rotate(220deg);
+    
+}
+
+.all-header{
+    z-index: 7;
+}
+
+.content{
+    position: relative;
+    text-align: center;
+}
+
+.main-text{
+    position: absolute;
+    padding-left: 30px;
+    top: 30px;
+    max-width: 560px;
+}
+
+.button{
+    border: 0;
+    background-color: #000b76;
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 10px;
+    border: 1px solid #000b76;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.button-pos{
+    margin-top: -1009px;
+    padding-left: 1400px;
+    position: fixed;
+}
