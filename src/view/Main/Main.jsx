@@ -1,11 +1,15 @@
 import React from 'react';
 import Study from '../../Images/Study.svg';
-import Header from '../../components/Header/Header'
-import Waves from '../../Images/Waves3.svg'
+import Header from '../../components/Header/Header';
+import Waves from '../../Images/Waves3.svg';
+import {useHistory} from "react-router-dom";
 
 import "./Main.css";
 
 function MainView(){
+
+    const history = useHistory();
+
     return( 
         <div className="all">
             <div className="waves">
@@ -13,7 +17,7 @@ function MainView(){
             </div>
             <div className="all-header"> 
                 <Header className="header">Notre Alunos</Header> 
-                <div className="button-pos"><button className="button">Entrar</button></div>
+                <div className="button-pos"><button className="button" onClick={() => {history.push('login')}}>Entrar</button></div>
             </div>
 
             <div className="content">
