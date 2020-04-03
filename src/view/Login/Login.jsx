@@ -8,7 +8,12 @@ function LoginView(){
     return(
         <div className="All-login">
             <Header className="header-login">Notre Alunos</Header>
-            
+            <div className="login-box">
+                <p>Usuário</p>
+                <input></input>
+                <p>Senha</p>
+                <input></input>
+            </div>
         </div>
     );
 }
