@@ -1,37 +1,59 @@
-input{
-    border-width: 0ch;
-    background-color: rgb(236, 236, 236);
-    width: 500px;
-    height: 40px;
-    margin: 6px;
-    padding: 5px;
+input{ border-width: 0ch; background-color: rgb(236, 236, 236); width: 450px; height: 40px; margin: 6px 20px; padding: 5px; left: 50%;}
+
+
+.blue-rec{ right: 0; top: 0; position: absolute; z-index: 1; height: 100%; width: auto;}
+
+/* Login */
+.title-login{ font-size: 50px; color: #000b76; font-weight: 600; margin: 10px;}
+
+.btn-login{ background-color: #000b76; color: white; padding: 8px 20px; border-radius: 5px; border: none; position: relative; margin-top: 5px; cursor: pointer; box-shadow: 3px 4px 5px gray;}
+.btn-login:hover{
+    transition: 0.2s;
+    box-shadow: 0px 0px 0px;
+    transform: translateX(1px);
+    transform: translateY(2px);
 }
 
-.title-login{
-    font-size: 50px;
-    color: #000b76;
-    font-weight: 600;
+
+.login-box{ width: 50%; padding: 30px; margin-top: 150px; text-align: center;}
+
+
+/* New account */
+.new-login-box{ top: 0; width: 50%; right: 0; text-align: center;}
+
+.create-title{ position: absolute; margin-left: 900px; z-index: 5; color: white; top: 26%;}
+
+.create-subtitle{ position: absolute; left: 69%; color: white; z-index: 5; top: 38%; font-size: 28px; font-weight: 400;}
+
+/* Animation btn */
+
+.btn-new-login{position: relative; font-size: 20px; left: 100%; border: 1px solid rgb(132, 155, 255); background-color: transparent; color: white; z-index: 5; top: 415px;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    outline: none;
+    transition: 1s ease-in-out;
 }
 
-.btn-login{
-    background-color: #000b76;
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+
+  .btn-new-login:hover svg {
+    stroke-dashoffset: -480;
+    background: #00095e;
+    opacity: 40%;
+  }
+  
+  .btn-new-login span {
     color: white;
-    padding: 15px;
-    margin-top: 15px;
-    margin-left: 250px;
-    border-radius: 5%;
-}
-
-.login-box{
-    width: 550px;
-    padding: 30px; 
-    margin-left: 200px;
-    margin-top: 150px;
-    text-align: center;
-}
-
-.blue-rec{
-    margin-left: 300px;
-    margin-top: -200px;
-   position: absolute;
-}
+    font-size: 18px;
+    font-weight: 100;
+  }
